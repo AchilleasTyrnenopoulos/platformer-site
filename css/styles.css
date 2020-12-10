@@ -8,7 +8,7 @@ body {
 
 h1 {
     font-size: 3rem;
-    line-height: 1.5;
+    line-height: 1.2;
 }
 
 p, span {
@@ -23,10 +23,12 @@ p, span {
 /* Navbar */
 .navbar {
     padding: 0;
+    margin: 10px 0;
 }
 
 .navbar-brand {
     font-family: "Ubuntu";
+
 }
 
 /* Title Heading */
@@ -49,6 +51,9 @@ p, span {
     margin: 5% 3% 5% 0;
 }
 
+.fab {
+  margin-right: 5px;
+}
 
 
 /***** FEATURES SECTION *****/
