@@ -133,11 +133,31 @@ hr {
 
 /*****************MEDIA QUERYS**********************/
 
-@media (max-width: 990px) {
+@media (max-width: 991px) {
 
     body {
         text-align: center;
         padding: 0 15px;
+    }
+
+    h1 {
+      font-size: 1.5rem;
+    }
+
+    h2 {
+      font-size: 16px;
+    }
+
+    p, span {
+      font-size: 8px;
+    }
+
+    .features-icon {
+      font-size: 25px;
+    }
+
+    .media-icon {
+      font-size: 16px;
     }
 
     .top-container{
@@ -150,5 +170,10 @@ hr {
 
     .carousel-item {
       padding: 3% 10%;
+    }
+
+    .btn {
+      
+      font-size: 50%;
     }
 }
