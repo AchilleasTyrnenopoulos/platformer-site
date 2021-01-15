@@ -15,9 +15,14 @@ p, span {
     color: #8f8f8f;
 }
 
+span{
+  line-height: 1;
+}
+
 hr {
   background-color: #67F0DC;
-  margin-top: 0;
+  margin-top: 40px;
+  margin-bottom: 40px;
   width: 50%;
 }
 
@@ -47,9 +52,11 @@ hr {
     padding: 15px;
 }
 /* Download Buttons */
-.download-btn {
-    margin: 5% 3% 5% 0;
+.title-download-btn {
+    margin: 5% 3% 0 0;
 }
+
+
 .fab {
   margin-right: 5px;
 }
@@ -63,6 +70,10 @@ hr {
   font-size: 50px;
 }
 
+.features-row{
+  margin-bottom: 1rem;
+}
+
 /***** SCREENSHOTS SECTION *****/
 #gameplay-screenshots {
   padding: 0 10%;
@@ -72,6 +83,12 @@ hr {
   padding: 3% 15%;
   text-align: center;
 }
+
+/********************FOOTER SECTION******************/
+.footer-container {
+  text-align: center;
+}
+
 
 /*****************MEDIA QUERYS**********************/
 
