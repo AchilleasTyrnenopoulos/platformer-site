@@ -15,6 +15,14 @@ p, span {
     color: #8f8f8f;
 }
 
+a {
+  color: black;
+}
+a:hover{
+  color: black;
+  opacity: 0.7;
+}
+
 span{
   line-height: 1;
 }
@@ -89,10 +97,43 @@ hr {
   text-align: center;
 }
 
+.footer-cta {
+  margin-bottom: 40px;
+}
+
+.copyright-media {
+  background-color: #67F0DC;
+
+  padding: 0.5rem 15%;
+
+}
+
+.copyright {
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.social-media {
+  text-align: right;
+  margin-bottom: 0;
+}
+
+.media-icon {
+  font-size: 32px;
+}
+
+#first-media-icon {
+  margin-right: 20px;
+}
+
+.media-icon:hover {
+  opacity: 0.7;
+  color: #8f8f8f;
+}
 
 /*****************MEDIA QUERYS**********************/
 
-@media (max-width: 1080px) {
+@media (max-width: 990px) {
 
     body {
         text-align: center;
